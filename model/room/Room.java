@@ -1,16 +1,19 @@
-import java.util.Vector;
+
+package model.room;
+
+import java.util.ArrayList;
 
 public class Room {
-	private boolean _isOpen;
-	public Lesson _unnamed_Lesson_;
-	public Vector<Item> _unnamed_Item_ = new Vector<Item>();
-	public Game _unnamed_Game_;
+	private boolean isOpen;
+	public Lesson lesson;
+	public ArrayList<Item> itemList = new ArrayList<Item>();
+	public Game createur;
 
 	public boolean getIsOpen() {
-		return this._isOpen;
+		return this.isOpen;
 	}
 
-	public void setIsOpen(boolean aIsOpen) {
-		this._isOpen = aIsOpen;
+	public void setIsOpen(boolean isOpen) {
+		this.isOpen = isOpen;
 	}
 }
