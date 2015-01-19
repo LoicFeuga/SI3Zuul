@@ -1,3 +1,7 @@
+package controller;
+
+import model.item.Item;
+
 public class Student {
 	public Lesson _unnamed_Lesson_;
 	public Game _unnamed_Game_;

@@ -1,3 +1,7 @@
+package controller;
+
+import java.util.HashMap;
+
 public class Language {
 	private HashMap<String, String> _dictonnary;
 

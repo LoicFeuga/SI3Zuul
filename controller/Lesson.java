@@ -1,3 +1,7 @@
+package controller;
+
+import model.room.Room;
+
 public class Lesson {
 	private String _name;
 	private boolean _isPOO;

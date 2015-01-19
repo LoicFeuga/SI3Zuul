@@ -3,6 +3,9 @@ package model.room;
 
 import java.util.ArrayList;
 
+import controller.*;
+import model.item.Item;
+
 public class Room {
 	private boolean isOpen;
 	public Lesson lesson;
