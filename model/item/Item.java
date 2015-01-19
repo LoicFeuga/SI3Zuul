@@ -1,4 +1,6 @@
+package model.item;
+
 public class Item {
-	public Room _unnamed_Room_;
-	public Student _unnamed_Student_;
+	public Room createur;
+	
 }
