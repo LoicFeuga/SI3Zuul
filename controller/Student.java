@@ -3,7 +3,22 @@ package controller;
 import java.util.ArrayList;
 
 import model.item.Item;
-
+/**
+ * La class Student représente un joueur réel ou controlé par l'ordinateur 
+ *   permettant de ce déplacer dans la map du jeu
+ *   
+ * Il possède un inventory regroupant tous les badges représentant les récompenses
+ *   pour avoir assisté à un cours, ainsi que tous les items
+ *   
+ * Version 0 : 
+ * 		Edition 0 : - class initial, constructeur, accesseurs, action sur l'inventaire
+ * 			
+ *  
+ * Version actuel : 0.0
+ * 
+ * @author loic
+ *
+ */
 public class Student {
 	private AdministratorBadge inventory;
 	//private ArrayList<Item> itemList;
