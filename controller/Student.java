@@ -2,6 +2,7 @@ package controller;
 
 import java.util.ArrayList;
 
+import model.IA;
 import model.item.Item;
 /**
  * La class Student représente un joueur réel ou controlé par l'ordinateur 
@@ -24,6 +25,8 @@ public class Student {
 	//private ArrayList<Item> itemList;
 	private int physicEnergy;
 	private int mentalEnergy;
+	private boolean isIA;
+	private IA ia;
 	
 	/**
 	 * Constructeur d'un Student par défaut
@@ -34,7 +37,22 @@ public class Student {
 		//itemList = new ArrayList();
 		physicEnergy = 100;
 		mentalEnergy = 1000;
+		isIA = false;
 	}
+	
+	public Student(IA ia){
+		inventory = new AdministratorBadge();
+		//itemList = new ArrayList();
+		physicEnergy = 100;
+		mentalEnergy = 1000;
+		if(ia == null) isIA = false;
+		else {
+			isIA = true;
+			this.ia = ia;
+		}
+	}
+	
+	public 
 
 	/**
 	 * Permet d'ajouter l'item passé en paramètre à l'inventaire 

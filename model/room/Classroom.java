@@ -2,11 +2,10 @@ package model.room;
 
 import controller.Student;
 
-public class Lab extends LessonRoom {
+public class Classroom extends LessonRoom {
 
-	public Lab(String description) {
+	public Classroom(String description) {
 		super(description);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override
@@ -14,4 +13,5 @@ public class Lab extends LessonRoom {
 		// TODO Auto-generated method stub
 		
 	}
+
 }
